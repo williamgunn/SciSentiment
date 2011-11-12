@@ -1,0 +1,39 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 
+; Certainty Lexicon: Unsure
+;
+; This file contains a list of words expressing lack of certainty
+;
+;
+; Notes: 
+;    1. The appearance of an unsure word in a sentence does not necessarily  
+;       mean that the sentence expresses uncertainty. 
+; 
+;    2. Common mispellings need to be added
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+does not conclusively show
+does not show conclusively
+does not definitively prove
+these results do not suggest
+we have not shown
+not demonstrated conclusively
+not statistically significant
+statistically insignificant
+insignificant
+p>0.05
+p>=0.05
+p≥0.05
+p>0.1
+p>=0.1
+P≥0.1
+p>0.01
+p>=0.01
+P≥0.01
+we cannot conclude
+we can't conclude
+we haven't shown
+we haven't proved
+we may not conclude
+
