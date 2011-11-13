@@ -45,3 +45,8 @@
 "we show"
 "we proved"
 "we may conclude"
+"findings indicate"
+"our work indicates"
+"this work indicates"
+"data indicate"
+"data suggest"
