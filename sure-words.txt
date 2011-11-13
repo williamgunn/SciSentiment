@@ -13,27 +13,35 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-conclusively show
-show conclusively
-definitively prove
-these results suggest
-we have shown
-demonstrates conclusively
-statistically significant
-we can conclude
-we have demonstrated
-p≤0.05
-p<0.05
-p<=0.05
-P≤0.1
-P<0.1
-P<=0.1
-P≤0.01
-P<0.01
-P<=0.01
-these results indicate
-these results prove
-we show
-we proved
-we may conclude
-
+"conclusively show"
+"show conclusively"
+"definitively prove"
+"these results suggest"
+"we have shown"
+"demonstrates conclusively"
+"statistically significant"
+"we can conclude"
+"we have demonstrated"
+"p≤0.05"
+"p<0.05"
+"p<=0.05"
+"p≤0.1"
+"p<0.1"
+"p<=0.1"
+"p≤0.01"
+"p<0.01"
+"p<=0.01"
+"p ≤ 0.05"
+"p < 0.05"
+"p <= 0.05"
+"p ≤ 0.1"
+"p < 0.1"
+"p <= 0.1"
+"p ≤ 0.01"
+"p < 0.01"
+"p <= 0.01"
+"these results indicate"
+"these results prove"
+"we show"
+"we proved"
+"we may conclude"

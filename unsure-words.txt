@@ -13,27 +13,36 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-does not conclusively show
-does not show conclusively
-does not definitively prove
-these results do not suggest
-we have not shown
-not demonstrated conclusively
-not statistically significant
-statistically insignificant
-insignificant
-p>0.05
-p>=0.05
-p≥0.05
-p>0.1
-p>=0.1
-P≥0.1
-p>0.01
-p>=0.01
-P≥0.01
-we cannot conclude
-we can't conclude
-we haven't shown
-we haven't proved
-we may not conclude
+"does not conclusively show"
+"does not show conclusively"
+"does not definitively prove"
+"these results do not suggest"
+"we have not shown"
+"not demonstrated conclusively"
+"not statistically significant"
+"statistically insignificant"
+"insignificant"
+"p>0.05"
+"p>=0.05"
+"p≥0.05"
+"p>0.1"
+"p>=0.1"
+"p≥0.1"
+"p>0.01"
+"p>=0.01"
+"p≥0.01"
+"p > 0.05"
+"p >= 0.05"
+"p ≥ 0.05"
+"p > 0.1"
+"p >= 0.1"
+"p ≥ 0.1"
+"p > 0.01"
+"p >= 0.01"
+"p ≥ 0.01"
+"we cannot conclude"
+"we can\'t conclude"
+"we haven\'t shown"
+"we haven\'t proved"
+"we may not conclude"
 
