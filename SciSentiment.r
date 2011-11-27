@@ -9,8 +9,8 @@ require('rplos')
 ## tweets_df = ldply(tweets, function(t) t$toDataFrame() )
 
 # load the word lists
-surewords = scan('/home/william/SciSentiment/sure-words.txt', what = 'character', comment.char = ';')
-unsurewords = scan('/home/william/SciSentiment/unsure-words.txt', what = 'character', comment.char = ';')
+surewords = scan('/home/williamgunn/Scripting/SciSentiment/sure-words.txt', what = 'character', comment.char = ';')
+unsurewords = scan('/home/williamgunn/Scripting/SciSentiment/unsure-words.txt', what = 'character', comment.char = ';')
 
 ## use this to interactively add words
 # surewords = c(surewords, '[add words here')
@@ -96,14 +96,24 @@ dois<-gsub('/', '%252F', strong_sentiment$id)
 #add readers column to strong_sentiment
 strong_sentiment$readers<-NA
 
-for (....) {
-if (class(try(...,silent=T))=="try-error") result[[i]] <- NA
-...
-} 
+## for (....) {
+## if (class(try(...,silent=T))=="try-error") result[[i]] <- NA
+## ...
+## } 
 
-for(i in 1:length(dois)){
-  if(class(try(strong_sentiment$readers[i]<-details(dois[i], type = "doi")$stats$readers, silent=T))=="try-error") strong_sentiment$readers[i]<-NA
-}
+for(i in 1:length(dois))
+  {
+  if(i%%50 == 0)
+    {
+    Sys.sleep(1)
+    }
+  else if(class(try(strong_sentiment$readers[i]<-details(dois[i], type = "doi")$stats$readers, silent=T))=="try-error") 
+    {
+    strong_sentiment$readers[i]<-NA
+    print("NA")
+    }
+  }
+
 
 
 #sentiment_score = score.sentiment(source_filtered_df$text, poswords, negwords, .progress = 'text')
@@ -123,6 +133,12 @@ surebarplot<-ggplot(surecount_df, aes(x = reorder(Term, No_Articles), y = No_Art
 print(surebarplot)
 unsurebarplot<-ggplot(unsurecount_df, aes(x = reorder(Term, No_Articles), y = No_Articles)) + geom_bar() + coord_flip()
 print(unsurebarplot)
+
+surenessvsreadership_plot<-ggplot(strong_sentiment, aes(x = sureness, y = readers)) + stat_boxplot(position = "dodge")
+print(surenessvsreadership_plot)
+
+strong_sentiment_no_body<-strong_sentiment[,-c(3:8)]
+write.csv(strong_sentiment_no_body, "~/Dropbox/Scripting/Data/PLoS/strong_sentiment_no_body.csv")
 
 ## code sentiment values, sort by date & plot
 #strong_sentiment$category<-cut(strong_sentiment$score, breaks = c(-20, 0, 20), labels = c("negative","positive"))
